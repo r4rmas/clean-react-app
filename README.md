@@ -1,5 +1,7 @@
 # clean-react-app
-A clean solution for creating react apps through npx
+A solution for creating clean react apps through create-react-app
+
+**clean-react-app** removes the example app given at the moment to create a react app and instead gives you a simple "Hello, world!"
 
 **Instructions**
 1. Create the following dir: ~/.Scripts
