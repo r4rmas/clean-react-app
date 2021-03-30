@@ -1,7 +1,7 @@
 # clean-react-app
-A solution for creating clean react apps through create-react-app
+A solution for creating clean react apps through create-react-app with emmet support for JSX
 
-**clean-react-app** removes the example app given at the moment to create a react app and instead gives you a simple "Hello, world!"
+**clean-react-app** removes the example app given at the moment of create a react app and instead gives you a simple "Hello, world!"
 
 **Instructions**
 1. Create the following dir: ~/.Scripts
