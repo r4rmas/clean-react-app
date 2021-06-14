@@ -9,7 +9,7 @@ A solution for creating clean react apps through create-react-app with emmet sup
 3. Give execution permission to the shell script
 > sudo chmod +x clean-react-app.sh
 4. Add the next line into your ~/.bashrc file:
-> alias clean-react-app='source ~/.Scripts/clean-react-app/clean-react-app.sh'
+> alias clean-react-app='source ~/.Scripts/clean-react-app/main.sh'
 
 It's done :)
 
