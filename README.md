@@ -1,8 +1,6 @@
 # clean-react-app
 A solution for creating clean react apps.
 
-**clean-react-app** removes the example app given at the moment of create a react app and instead gives you a simple "Hello, world!"
-
 **Instructions**
 1. Create the following directory: ~/.Scripts
 2. Clone this repository inside
