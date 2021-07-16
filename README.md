@@ -2,11 +2,12 @@
 A solution for creating clean react apps.
 
 **Instructions**
-1. Create the following directory: ~/.Scripts
+1. Create the directory ~/.Scripts
 2. Clone this repository inside
-3. Give execution permission to the shell script:
+3. Go into the clean-react-app folder
+4. Give execution permission to the shell script:
 > sudo chmod +x clean-react-app.sh
-4. Add the next line into your ~/.bashrc file:
+5. Add the next line into your ~/.bashrc file:
 > alias clean-react-app='source ~/.Scripts/clean-react-app/main.sh'
 
 **Example of use**  
