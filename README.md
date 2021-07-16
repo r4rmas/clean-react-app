@@ -8,7 +8,7 @@ A solution for creating clean react apps.
 4. Give execution permission to the shell script:
 > sudo chmod +x main.sh
 5. Add the next line into your ~/.bashrc file:
-> alias clean-react-app='source ~/.Scripts/clean-react-app/main.sh'
+> alias clean-react-app='~/.Scripts/clean-react-app/main.sh'
 
 **Example of use**  
 
