@@ -1,12 +1,12 @@
 {
-  "name": "app",
+  "name": "clean-react-app",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A clean React app",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode production",
-    "start": "webpack serve --mode development"
+    "start": "webpack serve --history-api-fallback --mode development"
   },
   "keywords": [],
   "author": "",
@@ -14,7 +14,7 @@
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-router-dom": "^5.2.0"
+    "react-router-dom": "^5.3.0"
   },
   "devDependencies": {
     "@babel/core": "^7.14.6",

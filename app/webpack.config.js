@@ -1,9 +1,10 @@
-const HtmlWebpackPlugin = require("html-webpack-plugin");
-const { CleanWebpackPlugin } = require("clean-webpack-plugin");
-const path = require("path");
+const HtmlWebpackPlugin = require("html-webpack-plugin")
+const { CleanWebpackPlugin } = require("clean-webpack-plugin")
+const webpack = require("webpack")
+const path = require("path")
 
 module.exports = {
-  entry: "./index.js",
+  entry: "./main.js",
   output: {
     filename: "bundle.js",
     path: path.resolve(__dirname, "build"),
@@ -23,13 +24,16 @@ module.exports = {
       },
     ],
   },
+  resolve: {
+    extensions: ['.js', '.jsx'],
+  },
   plugins: [
     new HtmlWebpackPlugin({
       template: "public/index.html",
     }),
     new CleanWebpackPlugin(),
+    new webpack.ProvidePlugin({
+      'React': 'react'
+    })
   ],
-  devServer: {
-    historyApiFallbak: true,
-  },
-};
+}
