@@ -2,26 +2,14 @@ import {
     BrowserRouter,
 	Routes,
 	Route
-} from 'react-router-dom';
-
-function Home() {
-    return (
-        <h1>HOME</h1>
-    )
-}
-
-function Login() {
-    return (
-        <h1>LOGIN</h1>
-    )
-}
+} from 'react-router-dom'
+import Presentation from './pages/Presentation'
 
 function App() {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path='/' element={Home()} />
-                <Route path='login' element={Login()} />
+                <Route path='/' element={ <Presentation /> } />
             </Routes>
         </BrowserRouter>
     )
