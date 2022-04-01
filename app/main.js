@@ -1,10 +1,10 @@
-import React from "react"
-import ReactDOM from "react-dom"
+import { StrictMode } from "react"
+import { render } from "react-dom"
 import App from "./src/App"
 
-ReactDOM.render(
-    <React.StrictMode>
-        <App /> 
-    </React.StrictMode>,
+render(
+    <StrictMode>
+        <App />
+    </StrictMode>,
     document.getElementById("app")
 )
