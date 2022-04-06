@@ -8,7 +8,7 @@ module.exports = {
   output: {
     filename: "bundle.js",
     path: resolve(__dirname, "build"),
-    publicPath: "/",
+    publicPath: "/"
   },
   module: {
     rules: [
@@ -18,22 +18,25 @@ module.exports = {
         use: {
           loader: "babel-loader",
           options: {
-            presets: ["@babel/preset-env", "@babel/preset-react"],
-          },
-        },
-      },
-    ],
+            presets: [
+              "@babel/preset-env", 
+              "@babel/preset-react"
+            ]
+          }
+        }
+      }
+    ]
   },
   resolve: {
-    extensions: [".js", ".jsx"],
+    extensions: [".js", ".jsx"]
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: "public/index.html",
+      template: "public/index.html"
     }),
     new CleanWebpackPlugin(),
     new ProvidePlugin({
-      "React": "react"
+      React: "react"
     })
-  ],
+  ]
 }
